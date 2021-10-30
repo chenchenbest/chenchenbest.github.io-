@@ -7,21 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>小陈努力冲冲冲</title>
     <script>
-    function getRandom(min, max) {
+   function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
-        while(true){
         var random = getRandom(1, 10);
+        while (true) { //死循环
             var num = prompt("猜数字游戏，输入1~10之间的一个数字，输入对了给你看好东西");
             if (num > random) {
                 alert("傻der，猜这么大干嘛");
             } else if (num < random) {
-                alert("猜这么小，傻der");
+                alert("猜这么小，往大了猜");
             } else {
-                alert("牛啊牛啊。猜对了，这就让你看好吃的饿死你");
-                break; 
+                alert("牛啊牛啊。猜对了,这就让你看好吃的饿死你");
+                break; //退出循环，结束程序
             }
         }
+    </script>
     </script>
 
 
