@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>小陈努力冲冲冲</title>
+    
+    function getRandom(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        var random = getRandom(1, 10);
+        while (true) { //死循环
+            var name = prompt("你叫啥，输入你的名字：")
+            var num = prompt("哦，" + name + "，你这个憨批，你来猜，输入1~10之间的一个数字，输入对了给你看");
+            if (num > random) {
+                alert("傻der，猜这么大干嘛");
+            } else if (num < random) {
+                alert("猜这么小，傻der");
+            } else {
+                alert("牛啊牛啊。猜对了");
+                break; //退出循环，结束程序
+            }
+        }
+    </script>
 
 
     <style>
