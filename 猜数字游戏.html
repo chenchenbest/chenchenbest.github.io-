@@ -17,13 +17,14 @@
         }
         var random = getRandom(1, 10);
         while (true) { //死循环
-            var num = prompt("你来猜，输入1~10之间的一个数字，输入对了给你看");
+            var name = prompt("你叫啥，输入你的名字：")
+            var num = prompt("哦，原来是" + name + "你这个憨批，你来猜，输入1~10之间的一个数字，输入对了给你看");
             if (num > random) {
-                alert("你好大，继续猜");
+                alert("傻der，猜这么大干嘛");
             } else if (num < random) {
-                alert("你好小，小了");
+                alert("猜这么小，傻der");
             } else {
-                alert("恭喜你猜对了");
+                alert("牛啊牛啊。猜对了");
                 break; //退出循环，结束程序
             }
         }
