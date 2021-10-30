@@ -10,16 +10,14 @@
     function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
-        var random = getRandom(1, 10);
-        while (true) { 
-            var name = prompt("你叫啥，输入你的名字：")
-            var num = prompt("哦，" + name + "，你这个憨批，你来猜，输入1~10之间的一个数字，输入对了给你看");
+        var random = getRandom(1, 100);
+            var num = prompt("猜数字游戏，输入1~10之间的一个数字，输入对了给你看好东西");
             if (num > random) {
                 alert("傻der，猜这么大干嘛");
             } else if (num < random) {
                 alert("猜这么小，傻der");
             } else {
-                alert("牛啊牛啊。猜对了");
+                alert("牛啊牛啊。猜对了，这就让你看好吃的饿死你");
                 break; 
             }
         }
