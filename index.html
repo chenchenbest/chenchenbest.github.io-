@@ -10,6 +10,7 @@
     function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
+        while(true){
         var random = getRandom(1, 100);
             var num = prompt("猜数字游戏，输入1~10之间的一个数字，输入对了给你看好东西");
             if (num > random) {
