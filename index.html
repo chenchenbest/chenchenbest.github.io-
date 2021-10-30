@@ -11,7 +11,7 @@
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
         var random = getRandom(1, 10);
-        while (true) { //死循环
+        while (true) { 
             var name = prompt("你叫啥，输入你的名字：")
             var num = prompt("哦，" + name + "，你这个憨批，你来猜，输入1~10之间的一个数字，输入对了给你看");
             if (num > random) {
@@ -20,7 +20,7 @@
                 alert("猜这么小，傻der");
             } else {
                 alert("牛啊牛啊。猜对了");
-                break; //退出循环，结束程序
+                break; 
             }
         }
     </script>
