@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>小陈努力冲冲冲</title>
     <script>
-    function getRandom(min, max) {
+        function getRandom(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
         var random = getRandom(1, 10);
@@ -26,31 +26,33 @@
 
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
         h1 {
             text-align: center
         }
         
         div {
             text-align: center;
-            color: pink;
-            font-size: 20px;
+            color: rgb(54, 136, 180);
+            font-size: 33px;
         }
-        div a {text-decoration:none;
-        color:black;}
-        img {
+        
+        video {
             display: block;
-            margin-left: 5000px;
-            width: 50%;
             margin: 0 auto;
+            height: 666px;
         }
     </style>
 </head>
 
 <body>
-    <h1>这是我的第一个网页</h1>
-    <div>
-        <a href="小陈.html">小陈yyds</a> </div>
-    <img src="1.jpg" alt="">
+    <div>这就让你看好吃的饿死你</div>
+
+    <video src="1.mp4" controls></video>>
 
 
 </body>
