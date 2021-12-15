@@ -1,11 +1,3 @@
-/*
- * @Author: Cold Stone
- * @Date: 2020-12-21 20:30:50
- * @LastEditTime: 2020-12-23 21:05:15
- * @LastEditors: Please set LastEditors
- * @Description: Christmas Tree
- * @FilePath: /christmas-tree/index.js
- */
 
 const CANVAS_WIDTH = 360
 const CANVAS_HEIGHT = 620
@@ -106,7 +98,7 @@ function drawLeaves(canvas) {
     }
 }
 
-// const gifts = ['🎁', '🍎', '🍭', '🍬', '🎈', '🧸', '🔔']
+const gifts = ['🎁', '🍎', '🍭', '🍬', '🎈', '🧸', '🔔']
 
 function drawGifts(canvas) {
     const ctx = canvas.getContext('2d')
@@ -134,3 +126,23 @@ function drawStar(canvas) {
 }
 
 window.addEventListener('load', main)
+var test = document.querySelector('canvas');
+var flag = 0;
+test.onclick = function() {
+    if (flag == 0) {
+        this.style.background = 'rgb(69,128,151)';
+        flag = 1
+    } else if (flag == 1) {
+        this.style.background = 'skyblue';
+        flag = 2
+    } else if (flag == 2) {
+        this.style.background = 'rgb(69,151,106)';
+        flag = 3
+    } else if (flag == 3) {
+        this.style.background = 'rgb(92,151,69)';
+        flag = 4
+    } else if (flag == 4) {
+        this.style.background = 'rgb(60,128,151)';
+        flag = 0
+    }
+}
