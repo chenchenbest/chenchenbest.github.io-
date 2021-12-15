@@ -114,8 +114,8 @@ function drawGifts(canvas) {
     ctx.restore()
 }
 
-// const image = new Image(500, 500)
-// image.src = 'star.png'
+const image = new Image(500, 500)
+image.src = 'star.png'
 
 function drawStar(canvas) {
     const ctx = canvas.getContext('2d')
