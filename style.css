@@ -14,7 +14,14 @@ body {
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center 0;
+}h1 {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    text-shadow: 2px 2px 5px pink;
+    margin: 0 auto;
 }
+
 
 canvas {
     position: absolute;
