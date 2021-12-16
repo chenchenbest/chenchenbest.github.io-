@@ -1,4 +1,3 @@
-
 const CANVAS_WIDTH = 360
 const CANVAS_HEIGHT = 620
 
@@ -126,23 +125,23 @@ function drawStar(canvas) {
 }
 
 window.addEventListener('load', main)
-// var test = document.querySelector('canvas');
-// var flag = 0;
-// test.onclick = function() {
-//     if (flag == 0) {
-//         this.style.background = 'rgb(69,128,151)';
-//         flag = 1
-//     } else if (flag == 1) {
-//         this.style.background = 'skyblue';
-//         flag = 2
-//     } else if (flag == 2) {
-//         this.style.background = 'rgb(69,151,106)';
-//         flag = 3
-//     } else if (flag == 3) {
-//         this.style.background = 'rgb(92,151,69)';
-//         flag = 4
-//     } else if (flag == 4) {
-//         this.style.background = 'rgb(60,128,151)';
-//         flag = 0
-//     }
-// }
+    // var test = document.querySelector('canvas');
+    // var flag = 0;
+    // test.onclick = function() {
+    //     if (flag == 0) {
+    //         this.style.background = 'rgb(69,128,151)';
+    //         flag = 1
+    //     } else if (flag == 1) {
+    //         this.style.background = 'skyblue';
+    //         flag = 2
+    //     } else if (flag == 2) {
+    //         this.style.background = 'rgb(69,151,106)';
+    //         flag = 3
+    //     } else if (flag == 3) {
+    //         this.style.background = 'rgb(92,151,69)';
+    //         flag = 4
+    //     } else if (flag == 4) {
+    //         this.style.background = 'rgb(60,128,151)';
+    //         flag = 0
+    //     }
+    // }
